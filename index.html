@@ -1,7 +1,97 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samvel's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <header>
+        <div class="container">
+            <div class="container">
+                <h1>Samvel Karapetyan</h1>
+                <p>Machine Learning Researcher | AI Enthusiast | Data Scientist</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#publications">Publications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <div class="about-content">
+                    <img src="images/profile.png" alt="Samvel's photo" class="about-image">
+                    <div class="about-text">
+                        <h2>About Me</h2>
+                        <p>Hi! I'm Samvel, a passionate Machine Learning Researcher with a keen interest in artificial intelligence and data science. I thrive on solving challenging problems and developing innovative solutions that push the boundaries of technology.</p>
+                        <p>Currently, I work as a researcher at <a href="https://yerevann.com" target="_blank">YerevaNN</a> while pursuing my bachelor's degree at <a href="https://ysu.am" target="_blank">Yerevan State University (YSU)</a>. My primary research focuses on domain generalization and domain shift, exploring how machine learning models can generalize across different domains effectively. I'm deeply fascinated by computer vision, language models, and generative models, areas where I aim to contribute with novel approaches and insights.</p>
+                        <p>I'm driven by the potential of AI to transform industries and solve real-world problems, and I'm excited to continue exploring and contributing to this rapidly evolving field.</p>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="projects" class="section bg-light">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="project">
+                    <div class="project-info">
+                        <h3>NLP</h3>
+                        <p>"Kargin Summarization" is an educational project focused on solving text summarization. In this project, we developed two innovative neural networks trained from scratch using distinct datasets. Additionally, we integrated a complementary approach by fine-tuning them on the BART network architecture.</p>
+                        <ul class="project-links">
+                            <li><a href="https://github.com/acafinalproject/summarization" target="_blank"><img src="images/github-icon.png" alt="GitHub icon" width="20"> github-repo</a></li>
+                        </ul>            
+                    </div>
+                    <img src="images/project1.png" alt="NLP" class="project-img", width="500">
+                </div>
+                <div class="project">
+                    <div class="project-info">
+                        <h3>Computer Vision</h3>
+                        <p>"Face Detection" is an educational project focused on solving face detection problem. In this project, I have developed a real-time (and static) face detector. I didn't use any augmentation and if needs it can be developed.</p>
+                        <ul class="project-links">
+                            <li><a href="https://github.com/samvel-karapetyan/aca_homeworks/blob/master/SixthGreatJob/face_detection" target="_blank"><img src="images/github-icon.png" alt="GitHub icon" width="20"> github-repo</a></li>
+                        </ul>            
+                    </div>                
+                    <img src="images/project2.png" alt="NLP" class="project-img", width="500">
+                </div>
+            </div>
+        </section>
+
+        <section id="publications" class="container">
+            <h2>Publications</h2>
+            <ul>
+                <li><a href="https://openreview.net/pdf?id=uwkYY4Y8I1">In-context learning in presence of spurious correlations - ICML 2024</a></li>
+            </ul>
+        </section>
+
+        </section>
+        <section id="contact" class="container">
+            <h2>Contact Me</h2>
+            <ul>
+                <li><a href="mailto:samvelkarapetyaan@gmail.com"><img src="images/email-icon.png" alt="Email icon", width="20">  samvelkarapetyaan@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/samvelkarapetyan" target="_blank"><img src="images/linkedin-icon.png" alt="LinkedIn icon", , width="20">  /samvelkarapetyan</a></li>
+                <li><a href="https://scholar.google.com/citations?user=ceA9PHEAAAAJ&hl" target="_blank"><img src="images/scholar-icon.png" alt="Google Scholar icon", width="20">  Google-Scholar</a></li>
+                <li><a href="https://github.com/samvel-karapetyan" target="_blank"><img src="images/github-icon.png" alt="GitHub icon", , width="20">  /samvel-karapetyan</a></li>
+                <!-- <li><a href="files/mycv.pdf" target="_blank"><img src="images/cv-icon.png" alt="CV icon"> CV</a></li> -->
+                <li><strong>Phone:</strong> +374 (95) 48-63-04</li>
+                <li><strong>Country:</strong> Yerevan, Armenia</li>
+            </ul>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Samvel Karapetyan. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
